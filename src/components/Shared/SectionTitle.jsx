@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 const SectionTitle = ({ title, subtitle }) => {
     return (
         <div data-aos="fade-right" className="text-white mt-14 mb-6">
@@ -10,5 +10,8 @@ const SectionTitle = ({ title, subtitle }) => {
         </div>
     );
 };
-
+SectionTitle.propTypes = {
+    title: PropTypes.string,
+    subtitle: PropTypes.string,
+}
 export default SectionTitle;
