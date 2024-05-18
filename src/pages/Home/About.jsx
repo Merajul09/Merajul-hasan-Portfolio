@@ -3,7 +3,7 @@ import programmer from '../../assets/programmer.jpg'
 
 const About = () => {
     return (
-        <div id='about'>
+        <div id='about' className='pt-8'>
             <SectionTitle title='About' subtitle='Me'></SectionTitle>
             <div className="text-white md:flex justify-center items-center gap-14">
                 <div data-aos="fade-right" className='md:w-7/12'>

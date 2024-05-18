@@ -1,11 +1,12 @@
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+import profile from '../../assets/profile.jpg'
 
 const Banner = () => {
     return (
-        <div id="home" className='py-8 md:py-0 md:h-[400px] md:flex items-center justify-center gap-10 bg-black text-white md:w-10/12 mx-auto'>
+        <div id="home" className='md:h-screen md:flex items-center justify-center gap-10 bg-black text-white md:w-10/12 mx-auto'>
             <div className='md:w-5/12'>
-                <img data-aos="zoom-in" className='h-72 w-72 rounded-full border-2 p-2 border-white md:ml-20' src={"profile"} alt="" />
+                <img data-aos="zoom-in" className='h-72 w-72 rounded-full border-2 p-2 border-white md:ml-20' src={profile} alt="" />
             </div>
             <div className='md:w-7/12'>
                 <h1 data-aos="fade-left" className='name text-3xl mt-8 md:mt-0 md:text-5xl font-bold'>Merajul Hasan</h1>

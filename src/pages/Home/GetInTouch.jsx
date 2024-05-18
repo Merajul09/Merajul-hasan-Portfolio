@@ -3,7 +3,7 @@ import SectionTitle from "../../components/Shared/SectionTitle";
 
 const GetInTouch = () => {
     return (
-        <div id="contact">
+        <div id="contact" className="py-8">
             <div>
                 <SectionTitle title='Get In' subtitle='Touch'></SectionTitle>
             </div>

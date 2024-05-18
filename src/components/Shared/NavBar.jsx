@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 const NavBar = () => {
     const [isToggleOpen, setIsToggleOpen] = useState(false)
@@ -7,7 +7,7 @@ const NavBar = () => {
     return (
         <>
             {/*<!-- Component: Basic Navbar --> */}
-            <header className=" relative z-20 w-full   bg-black  shadow-slate-700/5 after:absolute after:top-full after:left-0 after:z-10 after:block after:h-px after:w-full after:bg-black-200 lg:border-slate-200 lg:backdrop-blur-sm lg:after:hidden">
+            <header className="bg-black  shadow-slate-700/5 after:bg-black-200 lg:border-slate-200 lg:backdrop-blur-sm fixed top-0 w-full shadow-md z-50">
                 <div className="relative mx-auto max-w-full px-6 lg:max-w-5xl xl:max-w-7xl 2xl:max-w-[96rem]">
                     <nav
                         aria-label="main navigation"
@@ -20,9 +20,9 @@ const NavBar = () => {
                             aria-label="WindUI logo"
                             aria-current="page"
                             className="flex items-center gap-2 whitespace-nowrap py-3 text-lg focus:outline-none lg:flex-1"
-                        // href="javascript:void(0)"
                         >
-                            <img className="w-40" src={"logo"} alt="" />
+                            {/* <img className="w-40" src={"logo"} alt="" /> */}
+                            <p>Murad</p>
                         </a>
                         {/*      <!-- Mobile trigger --> */}
                         <button

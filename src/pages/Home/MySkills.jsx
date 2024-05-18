@@ -1,5 +1,4 @@
 import SectionTitle from "../../components/Shared/SectionTitle";
-
 import html from '../../assets/html.png'
 import css from '../../assets/css.png'
 import tailwind from '../../assets/tailwind.png'
@@ -13,12 +12,12 @@ import firebase from '../../assets/firebase.png'
 
 const MySkills = () => {
     return (
-        <div className="text-white my-20" id='skills'>
+        <div className="text-white py-8" id='skills'>
             <div>
                 <SectionTitle title='My' subtitle='Skills'></SectionTitle>
             </div>
-            <div className='grid grid-cols-2 md:grid-cols-5 gap-10'>
-                <div data-aos="zoom-in" className='text-center p-8 shadow-lg shadow-orange-500 rounded-lg hover:scale-110 transform transition-all duration-300'>
+            <div className='grid grid-cols-2 md:grid-cols-3 gap-8'>
+                <div data-aos="zoom-in" className='text-center p-8 shadow-lg shadow-orange-500 rounded-lg hover:scale-105 transform transition-all duration-500'>
                     {/* <span>HTML</span><FaHtml5 className='text-2xl'></FaHtml5> */}
                     <div className='mb-3'>
                         <img className='mx-auto w-20 mb-2' src={html} alt="" />
