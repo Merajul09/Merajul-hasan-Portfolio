@@ -3,7 +3,8 @@ import Banner from "./Banner";
 import About from "./About";
 import MySkills from "./MySkills";
 import GetInTouch from "./GetInTouch";
-// import { ScrollContainer } from 'react-scroll';
+import Blogs from "./Blogs";
+import Projects from "./Projects";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -16,6 +17,8 @@ const Home = () => {
             <Banner></Banner>
             <About></About>
             <MySkills></MySkills>
+            <Projects></Projects>
+            <Blogs></Blogs>
             <GetInTouch></GetInTouch>
         </div>
     );
