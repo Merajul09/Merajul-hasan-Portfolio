@@ -1,14 +1,16 @@
 import SectionTitle from "../../components/Shared/SectionTitle";
-import html from '../../assets/html.png'
-import css from '../../assets/css.png'
-import tailwind from '../../assets/tailwind.png'
-import bootstrap from '../../assets/bootrstrap.png'
-import javascript from '../../assets/js.png'
-import react from '../../assets/react.png'
-import nodejs from '../../assets/nodejs.png'
-import mongodb from '../../assets/mongodb.png'
-import express from '../../assets/expressjs.png'
-import firebase from '../../assets/firebase.png'
+import html from '../../assets/image/HTML.png'
+import css from '../../assets/image/CSS.png'
+import tailwind from '../../assets/image/Tailwind.png'
+import bootstrap from '../../assets/image/Bootstrap.png'
+import javascript from '../../assets/image/JavaScript.png'
+import react from '../../assets/image/React.png'
+import nodejs from '../../assets/image/Nodejs.png'
+import mongodb from '../../assets/image/MongoDB.png'
+import express from '../../assets/image/Express.png'
+import firebase from '../../assets/image/Firebase.png'
+import jwt from '../../assets/image/JWT.png'
+import reactRouter from '../../assets/image/ReactRouterDom.png'
 
 const MySkills = () => {
     return (
@@ -20,10 +22,10 @@ const MySkills = () => {
                 <div data-aos="zoom-in" className='text-center p-8 shadow-lg shadow-orange-500 rounded-lg hover:scale-105 transform transition-all duration-500'>
                     {/* <span>HTML</span><FaHtml5 className='text-2xl'></FaHtml5> */}
                     <div className='mb-3'>
-                        <img className='mx-auto w-20 mb-2' src={html} alt="" />
+                        <img className='mx-auto w-36 mb-2' src={html} alt="" />
                         <h4>HTML</h4>
                     </div>
-                    <div className="flex w-full gap-2">
+                    {/* <div className="flex w-full gap-2">
                         <label
                             id="p01e-label"
                             className="order-2 mb-0 text-center text-xs text-white"
@@ -39,15 +41,15 @@ const MySkills = () => {
                         >
                             25%
                         </progress>
-                    </div>
+                    </div> */}
                 </div>
                 <div data-aos="zoom-in" className='text-center p-8 shadow-lg shadow-sky-400 rounded-lg hover:scale-110 transform transition-all duration-300'>
                     {/* <span>HTML</span><FaHtml5 className='text-2xl'></FaHtml5> */}
                     <div className='mb-3'>
-                        <img className='mx-auto w-20 mb-2' src={css} alt="" />
+                        <img className='mx-auto w-36 mb-2' src={css} alt="" />
                         <h4>CSS</h4>
                     </div>
-                    <div className="flex w-full gap-2">
+                    {/* <div className="flex w-full gap-2">
                         <label
                             id="p01e-label"
                             className="order-2 mb-0 text-center text-xs text-white"
@@ -63,15 +65,15 @@ const MySkills = () => {
                         >
                             25%
                         </progress>
-                    </div>
+                    </div> */}
                 </div>
                 <div data-aos="zoom-in" className='text-center p-8 shadow-lg shadow-cyan-600 rounded-lg hover:scale-110 transform transition-all duration-300'>
                     {/* <span>HTML</span><FaHtml5 className='text-2xl'></FaHtml5> */}
                     <div className='mb-3'>
-                        <img className='mx-auto w-20 mb-2' src={tailwind} alt="" />
+                        <img className='mx-auto w-36 mb-2' src={tailwind} alt="" />
                         <h4>Tailwind CSS</h4>
                     </div>
-                    <div className="flex w-full gap-2">
+                    {/* <div className="flex w-full gap-2">
                         <label
                             id="p01e-label"
                             className="order-2 mb-0 text-center text-xs text-white"
@@ -87,15 +89,15 @@ const MySkills = () => {
                         >
                             25%
                         </progress>
-                    </div>
+                    </div> */}
                 </div>
                 <div data-aos="zoom-in" className='text-center p-8 shadow-lg shadow-purple-900 rounded-lg hover:scale-110 transform transition-all duration-300'>
                     {/* <span>HTML</span><FaHtml5 className='text-2xl'></FaHtml5> */}
                     <div className='mb-3'>
-                        <img className='mx-auto w-20 mb-2' src={bootstrap} alt="" />
+                        <img className='mx-auto w-36 mb-2' src={bootstrap} alt="" />
                         <h4>Bootstrap</h4>
                     </div>
-                    <div className="flex w-full gap-2">
+                    {/* <div className="flex w-full gap-2">
                         <label
                             id="p01e-label"
                             className="order-2 mb-0 text-center text-xs text-white"
@@ -111,15 +113,15 @@ const MySkills = () => {
                         >
                             25%
                         </progress>
-                    </div>
+                    </div> */}
                 </div>
                 <div data-aos="zoom-in" className='text-center p-8 shadow-lg shadow-yellow-500 rounded-lg hover:scale-110 transform transition-all duration-300'>
                     {/* <span>HTML</span><FaHtml5 className='text-2xl'></FaHtml5> */}
                     <div className='mb-3'>
-                        <img className='mx-auto w-20 mb-2' src={javascript} alt="" />
+                        <img className='mx-auto w-36 mb-2' src={javascript} alt="" />
                         <h4>JavaScript</h4>
                     </div>
-                    <div className="flex w-full gap-2">
+                    {/* <div className="flex w-full gap-2">
                         <label
                             id="p01e-label"
                             className="order-2 mb-0 text-center text-xs text-white"
@@ -135,15 +137,15 @@ const MySkills = () => {
                         >
                             25%
                         </progress>
-                    </div>
+                    </div> */}
                 </div>
                 <div data-aos="zoom-in" className='text-center p-8 shadow-lg shadow-sky-700 rounded-lg hover:scale-110 transform transition-all duration-300'>
                     {/* <span>HTML</span><FaHtml5 className='text-2xl'></FaHtml5> */}
                     <div className='mb-3'>
-                        <img className='mx-auto w-20 mb-2' src={react} alt="" />
+                        <img className='mx-auto w-36 mb-2' src={react} alt="" />
                         <h4>React</h4>
                     </div>
-                    <div className="flex w-full gap-2">
+                    {/* <div className="flex w-full gap-2">
                         <label
                             id="p01e-label"
                             className="order-2 mb-0 text-center text-xs text-white"
@@ -159,15 +161,15 @@ const MySkills = () => {
                         >
                             25%
                         </progress>
-                    </div>
+                    </div> */}
                 </div>
                 <div data-aos="zoom-in" className='text-center p-8 shadow-lg shadow-green-800 rounded-lg hover:scale-110 transform transition-all duration-300'>
                     {/* <span>HTML</span><FaHtml5 className='text-2xl'></FaHtml5> */}
                     <div className='mb-3'>
-                        <img className='mx-auto w-20 mb-2' src={nodejs} alt="" />
+                        <img className='mx-auto w-36 mb-2' src={nodejs} alt="" />
                         <h4>NodeJS</h4>
                     </div>
-                    <div className="flex w-full gap-2">
+                    {/* <div className="flex w-full gap-2">
                         <label
                             id="p01e-label"
                             className="order-2 mb-0 text-center text-xs text-white"
@@ -183,15 +185,15 @@ const MySkills = () => {
                         >
                             25%
                         </progress>
-                    </div>
+                    </div> */}
                 </div>
                 <div data-aos="zoom-in" className='text-center p-8 shadow-lg shadow-white rounded-lg hover:scale-110 transform transition-all duration-300'>
                     {/* <span>HTML</span><FaHtml5 className='text-2xl'></FaHtml5> */}
                     <div className='mb-3'>
-                        <img className='mx-auto w-20 mb-2' src={express} alt="" />
+                        <img className='mx-auto w-36 mb-2' src={express} alt="" />
                         <h4>ExpressJS</h4>
                     </div>
-                    <div className="flex w-full gap-2">
+                    {/* <div className="flex w-full gap-2">
                         <label
                             id="p01e-label"
                             className="order-2 mb-0 text-center text-xs text-white"
@@ -207,15 +209,15 @@ const MySkills = () => {
                         >
                             25%
                         </progress>
-                    </div>
+                    </div> */}
                 </div>
                 <div data-aos="zoom-in" className='text-center p-8 shadow-lg shadow-green-600 rounded-lg hover:scale-110 transform transition-all duration-300'>
                     {/* <span>HTML</span><FaHtml5 className='text-2xl'></FaHtml5> */}
                     <div className='mb-3'>
-                        <img className='mx-auto w-20 mb-2' src={mongodb} alt="" />
+                        <img className='mx-auto w-36 mb-2' src={mongodb} alt="" />
                         <h4>MongoDB</h4>
                     </div>
-                    <div className="flex w-full gap-2">
+                    {/* <div className="flex w-full gap-2">
                         <label
                             id="p01e-label"
                             className="order-2 mb-0 text-center text-xs text-white"
@@ -231,15 +233,15 @@ const MySkills = () => {
                         >
                             25%
                         </progress>
-                    </div>
+                    </div> */}
                 </div>
                 <div data-aos="zoom-in" className='text-center p-8 shadow-lg shadow-orange-400 rounded-lg hover:scale-110 transform transition-all duration-300'>
                     {/* <span>HTML</span><FaHtml5 className='text-2xl'></FaHtml5> */}
                     <div className='mb-3'>
-                        <img className='mx-auto w-20 mb-2' src={firebase} alt="" />
+                        <img className='mx-auto w-36 mb-2' src={firebase} alt="" />
                         <h4>Firebase</h4>
                     </div>
-                    <div className="flex w-full gap-2">
+                    {/* <div className="flex w-full gap-2">
                         <label
                             id="p01e-label"
                             className="order-2 mb-0 text-center text-xs text-white"
@@ -255,7 +257,55 @@ const MySkills = () => {
                         >
                             25%
                         </progress>
+                    </div> */}
+                </div>
+                <div data-aos="zoom-in" className='text-center p-8 shadow-lg shadow-red-400 rounded-lg hover:scale-105 transform transition-all duration-500'>
+                    {/* <span>HTML</span><FaHtml5 className='text-2xl'></FaHtml5> */}
+                    <div className='mb-3'>
+                        <img className='mx-auto w-36 mb-2' src={reactRouter} alt="React Router" />
+                        <h4>React Router Dom</h4>
                     </div>
+                    {/* <div className="flex w-full gap-2">
+                        <label
+                            id="p01e-label"
+                            className="order-2 mb-0 text-center text-xs text-white"
+                        >
+                            <span className="sr-only">uploading</span> 85%
+                        </label>
+                        <progress
+                            aria-labelledby="p01e-label"
+                            id="p01e"
+                            max="100"
+                            value="85"
+                            className="h-2 mt-1 block w-full overflow-hidden rounded bg-gray [&::-webkit-progress-bar]:bg-gray [&::-webkit-progress-value]:bg-white [&::-moz-progress-bar]:bg-white"
+                        >
+                            25%
+                        </progress>
+                    </div> */}
+                </div>
+                <div data-aos="zoom-in" className='text-center p-8 shadow-lg shadow-cyan-400 rounded-lg hover:scale-110 transform transition-all duration-300'>
+                    {/* <span>HTML</span><FaHtml5 className='text-2xl'></FaHtml5> */}
+                    <div className='mb-3'>
+                        <img className='mx-auto w-36 mb-2' src={jwt} alt="" />
+                        <h4>JWT</h4>
+                    </div>
+                    {/* <div className="flex w-full gap-2">
+                        <label
+                            id="p01e-label"
+                            className="order-2 mb-0 text-center text-xs text-white"
+                        >
+                            <span className="sr-only">uploading</span> 95%
+                        </label>
+                        <progress
+                            aria-labelledby="p01e-label"
+                            id="p01e"
+                            max="100"
+                            value="95"
+                            className="h-2 mt-1 block w-full overflow-hidden rounded bg-gray [&::-webkit-progress-bar]:bg-gray [&::-webkit-progress-value]:bg-white [&::-moz-progress-bar]:bg-white"
+                        >
+                            25%
+                        </progress>
+                    </div> */}
                 </div>
             </div>
         </div>
