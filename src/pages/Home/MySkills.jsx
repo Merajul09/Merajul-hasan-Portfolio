@@ -1,16 +1,4 @@
 import SectionTitle from "../../components/Shared/SectionTitle";
-import html from '../../assets/image/HTML.png'
-import css from '../../assets/image/CSS.png'
-import tailwind from '../../assets/image/Tailwind.png'
-import bootstrap from '../../assets/image/Bootstrap.png'
-import javascript from '../../assets/image/JavaScript.png'
-import react from '../../assets/image/React.png'
-import nodejs from '../../assets/image/Nodejs.png'
-import mongodb from '../../assets/image/MongoDB.png'
-import express from '../../assets/image/Express.png'
-import firebase from '../../assets/image/Firebase.png'
-import jwt from '../../assets/image/JWT.png'
-import reactRouter from '../../assets/image/ReactRouterDom.png'
 
 const MySkills = () => {
     return (
@@ -22,7 +10,7 @@ const MySkills = () => {
                 <div data-aos="zoom-in" className='text-center p-8 shadow-lg shadow-orange-500 rounded-lg hover:scale-105 transform transition-all duration-500'>
                     {/* <span>HTML</span><FaHtml5 className='text-2xl'></FaHtml5> */}
                     <div className='mb-3'>
-                        <img className='mx-auto w-36 mb-2' src={html} alt="" />
+                        <img className='mx-auto w-36 mb-2' src="https://raw.githubusercontent.com/Merajul09/StockImage/main/image/languageUp/HTML.png" alt="html" />
                         <h4>HTML</h4>
                     </div>
                     {/* <div className="flex w-full gap-2">
@@ -46,7 +34,7 @@ const MySkills = () => {
                 <div data-aos="zoom-in" className='text-center p-8 shadow-lg shadow-sky-400 rounded-lg hover:scale-110 transform transition-all duration-300'>
                     {/* <span>HTML</span><FaHtml5 className='text-2xl'></FaHtml5> */}
                     <div className='mb-3'>
-                        <img className='mx-auto w-36 mb-2' src={css} alt="" />
+                        <img className='mx-auto w-36 mb-2' src="https://raw.githubusercontent.com/Merajul09/StockImage/main/image/languageUp/CSS.png" alt="css" />
                         <h4>CSS</h4>
                     </div>
                     {/* <div className="flex w-full gap-2">
@@ -70,7 +58,7 @@ const MySkills = () => {
                 <div data-aos="zoom-in" className='text-center p-8 shadow-lg shadow-cyan-600 rounded-lg hover:scale-110 transform transition-all duration-300'>
                     {/* <span>HTML</span><FaHtml5 className='text-2xl'></FaHtml5> */}
                     <div className='mb-3'>
-                        <img className='mx-auto w-36 mb-2' src={tailwind} alt="" />
+                        <img className='mx-auto w-36 mb-2' src="https://raw.githubusercontent.com/Merajul09/StockImage/main/image/languageUp/TAILWIND.png" alt="tailwind" />
                         <h4>Tailwind CSS</h4>
                     </div>
                     {/* <div className="flex w-full gap-2">
@@ -94,7 +82,7 @@ const MySkills = () => {
                 <div data-aos="zoom-in" className='text-center p-8 shadow-lg shadow-purple-900 rounded-lg hover:scale-110 transform transition-all duration-300'>
                     {/* <span>HTML</span><FaHtml5 className='text-2xl'></FaHtml5> */}
                     <div className='mb-3'>
-                        <img className='mx-auto w-36 mb-2' src={bootstrap} alt="" />
+                        <img className='mx-auto w-36 mb-2' src="https://raw.githubusercontent.com/Merajul09/StockImage/main/image/languageUp/BOOTSTRAP.png" alt="bootstrap" />
                         <h4>Bootstrap</h4>
                     </div>
                     {/* <div className="flex w-full gap-2">
@@ -118,7 +106,7 @@ const MySkills = () => {
                 <div data-aos="zoom-in" className='text-center p-8 shadow-lg shadow-yellow-500 rounded-lg hover:scale-110 transform transition-all duration-300'>
                     {/* <span>HTML</span><FaHtml5 className='text-2xl'></FaHtml5> */}
                     <div className='mb-3'>
-                        <img className='mx-auto w-36 mb-2' src={javascript} alt="" />
+                        <img className='mx-auto w-36 mb-2' src="https://raw.githubusercontent.com/Merajul09/StockImage/main/image/languageUp/JAVASCRIPT.png" alt="javascript" />
                         <h4>JavaScript</h4>
                     </div>
                     {/* <div className="flex w-full gap-2">
@@ -142,7 +130,7 @@ const MySkills = () => {
                 <div data-aos="zoom-in" className='text-center p-8 shadow-lg shadow-sky-700 rounded-lg hover:scale-110 transform transition-all duration-300'>
                     {/* <span>HTML</span><FaHtml5 className='text-2xl'></FaHtml5> */}
                     <div className='mb-3'>
-                        <img className='mx-auto w-36 mb-2' src={react} alt="" />
+                        <img className='mx-auto w-36 mb-2' src="https://raw.githubusercontent.com/Merajul09/StockImage/main/image/languageUp/REACT.png" alt="react" />
                         <h4>React</h4>
                     </div>
                     {/* <div className="flex w-full gap-2">
@@ -166,7 +154,7 @@ const MySkills = () => {
                 <div data-aos="zoom-in" className='text-center p-8 shadow-lg shadow-green-800 rounded-lg hover:scale-110 transform transition-all duration-300'>
                     {/* <span>HTML</span><FaHtml5 className='text-2xl'></FaHtml5> */}
                     <div className='mb-3'>
-                        <img className='mx-auto w-36 mb-2' src={nodejs} alt="" />
+                        <img className='mx-auto w-36 mb-2' src="https://raw.githubusercontent.com/Merajul09/StockImage/main/image/languageUp/NODE.png" alt="node" />
                         <h4>NodeJS</h4>
                     </div>
                     {/* <div className="flex w-full gap-2">
@@ -190,7 +178,7 @@ const MySkills = () => {
                 <div data-aos="zoom-in" className='text-center p-8 shadow-lg shadow-white rounded-lg hover:scale-110 transform transition-all duration-300'>
                     {/* <span>HTML</span><FaHtml5 className='text-2xl'></FaHtml5> */}
                     <div className='mb-3'>
-                        <img className='mx-auto w-36 mb-2' src={express} alt="" />
+                        <img className='mx-auto w-36 mb-2' src="https://raw.githubusercontent.com/Merajul09/StockImage/main/image/languageUp/EXPRESS.png" alt="express" />
                         <h4>ExpressJS</h4>
                     </div>
                     {/* <div className="flex w-full gap-2">
@@ -214,7 +202,7 @@ const MySkills = () => {
                 <div data-aos="zoom-in" className='text-center p-8 shadow-lg shadow-green-600 rounded-lg hover:scale-110 transform transition-all duration-300'>
                     {/* <span>HTML</span><FaHtml5 className='text-2xl'></FaHtml5> */}
                     <div className='mb-3'>
-                        <img className='mx-auto w-36 mb-2' src={mongodb} alt="" />
+                        <img className='mx-auto w-36 mb-2' src="https://raw.githubusercontent.com/Merajul09/StockImage/main/image/languageUp/MONGODB.png" alt="mongodb" />
                         <h4>MongoDB</h4>
                     </div>
                     {/* <div className="flex w-full gap-2">
@@ -238,7 +226,7 @@ const MySkills = () => {
                 <div data-aos="zoom-in" className='text-center p-8 shadow-lg shadow-orange-400 rounded-lg hover:scale-110 transform transition-all duration-300'>
                     {/* <span>HTML</span><FaHtml5 className='text-2xl'></FaHtml5> */}
                     <div className='mb-3'>
-                        <img className='mx-auto w-36 mb-2' src={firebase} alt="" />
+                        <img className='mx-auto w-36 mb-2' src="https://raw.githubusercontent.com/Merajul09/StockImage/main/image/languageUp/FIREBASE.png" alt="firebase" />
                         <h4>Firebase</h4>
                     </div>
                     {/* <div className="flex w-full gap-2">
@@ -262,7 +250,7 @@ const MySkills = () => {
                 <div data-aos="zoom-in" className='text-center p-8 shadow-lg shadow-red-400 rounded-lg hover:scale-105 transform transition-all duration-500'>
                     {/* <span>HTML</span><FaHtml5 className='text-2xl'></FaHtml5> */}
                     <div className='mb-3'>
-                        <img className='mx-auto w-36 mb-2' src={reactRouter} alt="React Router" />
+                        <img className='mx-auto w-36 mb-2' src="https://raw.githubusercontent.com/Merajul09/StockImage/main/image/languageUp/REACTROUTERDOM.png" alt="React Router Dom" />
                         <h4>React Router Dom</h4>
                     </div>
                     {/* <div className="flex w-full gap-2">
@@ -286,7 +274,7 @@ const MySkills = () => {
                 <div data-aos="zoom-in" className='text-center p-8 shadow-lg shadow-cyan-400 rounded-lg hover:scale-110 transform transition-all duration-300'>
                     {/* <span>HTML</span><FaHtml5 className='text-2xl'></FaHtml5> */}
                     <div className='mb-3'>
-                        <img className='mx-auto w-36 mb-2' src={jwt} alt="" />
+                        <img className='mx-auto w-36 mb-2' src="https://raw.githubusercontent.com/Merajul09/StockImage/main/image/languageUp/JWT.png" alt="jwt" />
                         <h4>JWT</h4>
                     </div>
                     {/* <div className="flex w-full gap-2">
