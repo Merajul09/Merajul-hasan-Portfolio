@@ -40,8 +40,11 @@ const NavBar = () => {
             </button>
 
             {/* Logo */}
-            <a href="/" className="text-lg font-semibold">
-              Murad
+            <a
+              href="/"
+              className="text-lg font-semibold text-yellow-600 cursor-pointer hover:bg-yellow-600 hover:text-white transition-colors p-2 rounded-lg"
+            >
+              Hasan
             </a>
           </div>
 
@@ -57,7 +60,7 @@ const NavBar = () => {
                   to={link.to}
                   smooth={true}
                   duration={500}
-                  className="cursor-pointer hover:text-gray-500 transition-colors"
+                  className="cursor-pointer hover:text-yellow-600 transition-colors font-bold"
                 >
                   {link.name}
                 </Link>
