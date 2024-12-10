@@ -42,7 +42,7 @@ const NavBar = () => {
             {/* Logo */}
             <a
               href="/"
-              className="text-lg font-semibold text-yellow-600 cursor-pointer hover:bg-yellow-600 hover:text-white transition-colors p-2 rounded-lg"
+              className="text-5xl font-signature text-yellow-600 cursor-pointer hover:bg-yellow-600 hover:text-white transition-colors p-2 rounded-lg"
             >
               Hasan
             </a>
