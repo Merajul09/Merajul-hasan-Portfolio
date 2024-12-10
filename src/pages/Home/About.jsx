@@ -1,61 +1,65 @@
 import SectionTitle from "../../components/Shared/SectionTitle";
-import programmer from "../../assets/programmer.jpg";
+import programmer from "../../assets/programmer.png";
 
 const About = () => {
   return (
     <div id="about" className="pt-8">
-      <SectionTitle title="About" subtitle="Me"></SectionTitle>
-      <div className="text-white md:flex justify-center items-center gap-14">
-        <div data-aos="fade-right" className="md:w-7/12">
+      <SectionTitle title="About" subtitle="Me" />
+      <div className="text-white flex flex-col md:flex-row items-center gap-14">
+        {/* About Description */}
+        <div className="md:w-7/12 space-y-6" data-aos="fade-right">
           <p className="text-justify">
             I’m Merajul Hasan, a React developer passionate about crafting
-            dynamic web applications that offer seamless user experiences.
-            Currently, I’m diving deeper into advanced Node.js to expand my
-            backend expertise and create impactful, full-stack software
-            solutions. I thrive on learning new technologies, contributing to
-            meaningful projects, and solving challenging problems. Let’s build
-            something amazing together!
+            dynamic web applications. Currently, I’m exploring advanced Node.js
+            to build impactful, full-stack software solutions. I enjoy learning
+            new technologies, contributing to meaningful projects, and solving
+            challenging problems. Let’s create something amazing together!
           </p>
-          <div className="md:flex gap-4 mt-6">
-            <div className="md:w-7/12 space-y-3">
+          <div className="flex items-center gap-2">
+            <div className="w-3/5 space-y-3 flex flex-col">
               <h1 className="text-3xl font-semibold text-yellow-600">Myself</h1>
               <p>Name: Merajul Hasan</p>
-              {/* <p>Education: Diploma in Food Science</p> */}
-              <p>Language: Bangla, English, Hindi</p>
+              <p>Languages: Bangla, English, Hindi</p>
               <a
-                href={
-                  "https://drive.google.com/file/d/15HyJ8cRiC8ckrkR34sPqSxGti7XtvFH_/view?usp=sharing"
-                }
+                href="https://drive.google.com/file/d/15HyJ8cRiC8ckrkR34sPqSxGti7XtvFH_/view?usp=sharing"
                 target="_blank"
-                download="Resume - Merajul Hasan"
+                rel="noopener noreferrer"
+                className="btn bg-white w-max text-black font-semibold p-3 px-5 rounded hover:bg-yellow-600 hover:text-white transition"
               >
-                <button className="btn bg-white text-black font-semibold p-3 px-5 rounded mt-6 hover:bg-yellow-600 hover:text-white transition duration-300">
-                  Download My Resume
-                </button>
+                Download My Resume
               </a>
             </div>
-            <div className="md:w-5/12 mt-8 grid grid-cols-2 gap-4">
-              <div className=" text-center p-4 border-2 border-yellow-600 rounded-full">
-                <h1 className="text-4xl font-bold text-yellow-600">1+</h1>
-                <p>Years of Experience</p>
-              </div>
-              <div className="text-center p-4 border-2 border-yellow-600">
-                <h1 className="text-4xl font-bold text-yellow-600">5+</h1>
-                <p>Complete Projects</p>
-              </div>
-              <div className="text-center p-4 border-2 border-yellow-600">
-                <h1 className="text-4xl font-bold text-yellow-600">12+</h1>
-                <p>Month of Professional Experience</p>
-              </div>
-              <div className="text-center p-4 border-2 border-yellow-600 rounded-full">
-                <h1 className="text-4xl font-bold text-yellow-600">3+</h1>
-                <p>Happy Projects</p>
-              </div>
+            <div className="grid grid-cols-2 gap-4 w-2/5">
+              {[
+                { count: "1+", label: "Years of Experience" },
+                { count: "5+", label: "Complete Projects", round: "true" },
+                { count: "12+", label: "Months of Experience", round: "true" },
+                { count: "3+", label: "Happy Projects" },
+              ].map((item, index) => (
+                <div
+                  key={index}
+                  className={`text-center p-4 border-2 border-yellow-600 ${
+                    item.round ? "" : "rounded-full"
+                  }`}
+                >
+                  <h1 className="text-4xl font-bold text-yellow-600">
+                    {item.count}
+                  </h1>
+                  <p>{item.label}</p>
+                </div>
+              ))}
             </div>
           </div>
         </div>
+
+        {/* Image */}
         <div className="md:w-5/12">
-          <img data-aos="fade-left" src={programmer} alt="" />
+          <img
+            data-aos="fade-left"
+            src={programmer}
+            alt="Programmer"
+            className="rounded"
+          />
         </div>
       </div>
     </div>
