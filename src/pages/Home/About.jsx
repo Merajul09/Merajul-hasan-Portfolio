@@ -21,7 +21,7 @@ const About = () => {
               <p>Name: Merajul Hasan</p>
               <p>Languages: Bangla, English, Hindi</p>
               <a
-                href="https://drive.google.com/file/d/15HyJ8cRiC8ckrkR34sPqSxGti7XtvFH_/view?usp=sharing"
+                href="https://drive.google.com/file/d/1iLfIVrQN9ijrwiUvN3SvV05uZhuZvKob/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn bg-white w-max text-black font-semibold p-3 px-5 rounded hover:bg-yellow-600 hover:text-white transition"
