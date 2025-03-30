@@ -2,9 +2,6 @@
 
 - [Live link](https://merajulhasan.netlify.app/)
 
-some updates are coming soon...
-And created a new portfolio with next js...
-
 ## Features
 
 - Clean and modern UI/UX design.
