@@ -26,7 +26,3 @@
 - [React.js](https://reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - Icons from [React-icons](https://react-icons.github.io/react-icons/)
-
-more section coming soon...
-</br>
-still working on it...
