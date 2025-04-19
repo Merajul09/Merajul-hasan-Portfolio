@@ -1,5 +1,7 @@
 # Merajul Hasan
 
+update coming soon...
+
 - [Live link](https://merajulhasan.netlify.app/)
 
 ## Features
